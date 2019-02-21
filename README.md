@@ -1,5 +1,5 @@
 ![HitCount](http://hits.dwyl.io/aaronfagan/template-cityscape-1.svg)
-# Cityscape 1 Template
+# Template - Cityscape 1
 A simple landing page.
 - [View Demo](https://cdn.aaronfagan.ca/demo/web/cityscape-1/)
 
