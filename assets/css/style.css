@@ -1,0 +1,78 @@
+/* Custom Fonts */
+@font-face { 
+font-family: 'robotothin';
+src: 	url('../fonts/roboto/thin.eot');
+src: 	url('../fonts/roboto/thin.eot?#iefix') format('embedded-opentype'), 
+		url('../fonts/roboto/thin.woff') format('woff'),
+		url('../fonts/roboto/thin.ttf') format('truetype'),
+		url('../fonts/roboto/thin.svg#mplus-light') format('svg');
+}
+@font-face { 
+font-family: 'robotolight';
+src: 	url('../fonts/roboto/light.eot');
+src: 	url('../fonts/roboto/light.eot?#iefix') format('embedded-opentype'), 
+		url('../fonts/roboto/light.woff') format('woff'),
+		url('../fonts/roboto/light.ttf') format('truetype'),
+		url('../fonts/roboto/light.svg#mplus-light') format('svg');
+}
+
+/* Basics */
+html, body { height:100%; color:#fff; font-size:14px; font-family:Helvetica, Verdana, sans-sarif; margin:0; -webkit-text-size-adjust:none; -webkit-appearance:none; }
+html { background: #000 url('../img/bg.jpg') no-repeat center center fixed; background-size:cover; }
+#wrap { display:table; margin:0 auto; width:800px; }
+
+/* General Typography */
+h1, h2 { font-family:'robotothin', Helvetica, Verdana, sans-sarif; }
+h3, h4, #email, #submit { font-family:'robotolight', Helvetica, Verdana, sans-sarif; }
+h1, h2, h3, h4 { margin:0; text-rendering:optimizeLegibility; }
+h1 { font-size:54px; line-height:52px; text-shadow:0px 0px 15px #FF0; }
+h2 { font-size:32px; margin:20px 0 0 0; }
+h3 { font-size:30px; }
+h4 { font-size:26px; }
+a { font-weight:bold; color:#fff; text-decoration:none; }
+a:hover { text-decoration:underline; }
+
+/* Header */
+#header { height:300px; width:100%; display:table-row; }
+#header .logo { display:table-cell; vertical-align:middle; text-align:center; padding:20px 0; }
+
+/* Message */
+#message { text-align:center; }
+#message h3 { margin:20px 0; }
+
+/* Content */
+#content {  }
+#content .left, #content .right { display:table-cell; width:400px; }
+#content .left { padding:20px 20px 20px 0; }
+#content .right { padding:20px 0 20px 20px; }
+
+/* Copyright */
+#copyright { text-align:center; font-size:12px; margin:150px 0 20px 0; text-transform:uppercase; }
+
+/* Borders */
+#email, #message { border-top:1px solid #666; border-bottom:1px solid #666; }
+#content { border-bottom:1px solid #666; }
+#content .left { border-right:1px solid #666; }
+
+/* Miscellaneous */
+#email, #submit { color:#fff; font-size:22px; padding:5px 10px; outline:none; }
+#email { background:none; font-size:22px; padding:5px 10px; border-left:none; border-right:none; border-radius:0; }
+#email:hover { border-top:1px solid #999; border-bottom:1px solid #999; }
+#email:focus { border-top:1px solid #fff; border-bottom:1px solid #fff; }
+#submit { border:1px solid #666; width:200px; border-radius:5px; font-size:18px; background:none; cursor:pointer; }
+#submit:disabled { border:1px solid #666 !important; color:#666 !important; cursor:default; }
+#submit:hover { border:1px solid #999; }
+#submit:active { border:1px solid #fff; }
+.error { border:1px solid #C00; background:url('../img/msg-error.png') no-repeat left 5px center; border-radius:5px; padding:10px 10px 10px 40px; }
+.success { border:1px solid #090; background:url('../img/msg-success.png') no-repeat left 5px center; border-radius:5px; padding:10px 10px 10px 40px; }
+#indicator { margin:0 0 -10px 20px; }
+
+/* Responsive */
+@media screen and (max-width: 800px) {
+#header { height:auto; }
+h2 { font-size:20px; }
+#wrap { width:100%; }
+#content .left, #content .right { display:block; width:auto; padding:0; }
+#content .left { display:block; width:auto; padding:20px; border:none; }
+#content .right { display:block; width:auto; padding:20px; }
+}

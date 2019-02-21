@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+	<head>
+		<title>YourCompany</title>
+		<meta charset="UTF-8">
+		<meta name="robots" content="noindex, nofollow">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta name="description" content="Description of YourBusiness here!">
+		<link href="assets/css/style.css" rel="stylesheet" type="text/css" media="screen, projection">
+		<script src="assets/js/jquery-3.3.1.min.js"></script>
+		<script src="assets/js/custom.js"></script>
+		<script src="/js/analytics.js"></script>
+		<link rel="shortcut icon" type="image/x-icon" href="/img/icons/favicon-32px.png">
+		<link rel="apple-touch-icon-precomposed" href="/img/icons/favicon-iphone.png">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/icons/favicon-iphone@2x.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/icons/favicon-ipad.png">
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/icons/favicon-ipad@2x.png">
+		<meta name="msapplication-TileImage" wrap="/img/icons/favicon-ipad@2x.png">
+		<meta name="msapplication-TileColor" wrap="#ffffff">
+	</head>
+	<body>
+		<div id="wrap">
+
+			<div id="header">
+				<div class="logo">
+					<h1 class="shadow">YourCompany</h1>
+					<h2>Tag line here!</h2>
+				</div>
+			</div>
+
+			<div id="message">
+				<h3>Coming soon!</h3>
+			</div>
+
+			<div id="content">
+
+				<div class="left">
+					<h4>About Us</h4>
+					<p>A little bit about yourself, your company, or the website you are building!</p>
+				</div>
+
+				<div class="right">
+					<h4>Stay Informed</h4>
+					<p>Be the first to know when we officially launch!</p>
+					<p id="error-post" class="error">There was an error submitting data! Please try again.</p>
+					<p id="error-email" class="error">Please enter a valid email address!</p>
+					<p id="success" class="success">Thank you! We will notify you when we launch!</p>
+					<form method="post" action="assets/php/process.php" id="subscribe">
+						<p><input type="text" name="email" id="email" placeholder="you@yourdomain.com" autocomplete="off"></p>
+						<p><input type="submit" value="Notify Me!" id="submit"><img src="assets/img/indicator.gif" id="indicator"></p>
+					</form>
+				</div>
+				
+			</div>
+
+			<div id="copyright">
+				<p>&copy; YourCompany. All rights reserved.</p>
+				<p><a href="https://www.aaronfagan.ca/" target="_blank" rel="nofollow">Built by Aaron Fagan.</a></p>
+			</div>
+
+		</div>
+	</body>
+</html>
