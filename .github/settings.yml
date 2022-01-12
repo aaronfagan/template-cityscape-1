@@ -2,7 +2,7 @@ repository:
   name: 'template-cityscape-1'
   description: 'Template - Cityscape 1'
   homepage: ''
-  default_branch: 'master'
+  default_branch: 'main'
   private: false
   has_issues: true
   has_wiki: false
