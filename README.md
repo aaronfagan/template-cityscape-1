@@ -6,5 +6,5 @@ A simple landing page.
 
 ### index.html
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/ef9fb0a1-e19b-4a61-bb0e-c2555f86886e" alt="index.html"/>
+  <img src=".demo/index.png" alt="index.html"/>
 </p>
