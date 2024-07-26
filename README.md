@@ -8,3 +8,4 @@ A simple landing page.
 <p align="center">
   <img src="/blob/master/.demo/index.png" alt="index.html"/>
 </p>
+![index.html](/blob/master/.demo/index.png)
